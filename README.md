@@ -1,24 +1,29 @@
-# README
+# 質問箱クローン
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- 実際にアプリを作成することでRailsとチーム開発の理解を深めるためのプロジェクトです。
+- Railsを触ったことがなくても、勉強する意欲がある方は歓迎です!
 
-Things you may want to cover:
+## How to Use
 
-* Ruby version
+### 1. リポジトリをダウンロード
 
-* System dependencies
+```
+git clone
+cd qa-box-clone
+```
 
-* Configuration
+### 2. 必要なパッケージをインストール
 
-* Database creation
+```
+docker-compose up -d
+docker-compose run web bundle install
+```
 
-* Database initialization
+### 3. ブラウザから動作を確認
 
-* How to run the test suite
+```
+localhost:3000
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Contributers
+@tomsyoya  
